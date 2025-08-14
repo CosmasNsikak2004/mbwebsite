@@ -24,15 +24,15 @@ const Home = () => {
     }
   ];
 
-  const stats = [
-    { number: "8+", label: "Years Experience" },
-    { number: "200+", label: "Projects Completed" },
-    { number: "50+", label: "Happy Clients" },
-    { number: "300%", label: "Avg. Traffic Increase" }
-  ];
+  // const stats = [
+  //   { number: "8+", label: "Years Experience" },
+  //   { number: "200+", label: "Projects Completed" },
+  //   { number: "50+", label: "Happy Clients" },
+  //   { number: "300%", label: "Avg. Traffic Increase" }
+  // ];
 
   const clients = [
-    "Mon Info services", "Ultra Africa", "ULE Homes", "InnovateCorp", "NextGen Solutions"
+    "Mon Info services", "Ultra Africa", "ULE Homes"
   ];
 
   return (
@@ -50,7 +50,7 @@ const Home = () => {
                 I help businesses tell their story, engage their audience, and grow their revenue through compelling, conversion-focused content.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                <Link
+                {/* <Link
                   to="/contact"
                   className="bg-yellow-400 text-blue-900 px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-300 transition-colors flex items-center justify-center group"
                 >
@@ -62,7 +62,7 @@ const Home = () => {
                   className="border-2 border-yellow-400 text-yellow-400 px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 hover:text-blue-900 transition-colors text-center"
                 >
                   View My Work
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="flex justify-center lg:justify-end">
@@ -73,7 +73,7 @@ const Home = () => {
                   </div> */}
                   <img src="/profile.jpg" alt="Mbuotidem Cosmas" className="w-32 h-32 rounded-full mx-auto mb-4 object-cover shadow-lg" />
                   <h3 className="text-xl font-bold mb-2">Mbuotidem Cosmas</h3>
-                  <p className="text-blue-100">Senior Content Marketing Strategist</p>
+                  <p className="text-blue-100">Content Marketing Strategist</p>
                 </div>
               </div>
             </div>
@@ -82,7 +82,7 @@ const Home = () => {
       </section>
 
       {/* Stats Section */}
-      <section className="py-16 bg-gray-50">
+      {/* <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
@@ -94,7 +94,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-
+ */}
       {/* Services Preview */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -195,7 +195,7 @@ const Home = () => {
       </section>
 
       {/* Lead Magnet CTA */}
-      <section className="py-20 bg-gradient-to-r from-blue-800 to-blue-900 text-white">
+      {/* <section className="py-20 bg-gradient-to-r from-blue-800 to-blue-900 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-2xl p-8">
             <Download className="h-16 w-16 text-yellow-400 mx-auto mb-6" />
@@ -214,7 +214,7 @@ const Home = () => {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
