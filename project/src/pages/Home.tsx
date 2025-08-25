@@ -32,7 +32,7 @@ const Home = () => {
   // ];
 
   const clients = [
-    "Mon Info services", "Ultra Africa", "ULE Homes"
+    "Mon Info services", "Ultra Africa", "ULE Homes", "Ankara Grid Africa"
   ];
 
   return (
