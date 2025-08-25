@@ -82,7 +82,7 @@ const Contact = () => {
           <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
             Ready to transform your content marketing? I'd love to discuss your goals and how I can help you achieve them.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          {/* <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#contact-form"
               className="bg-yellow-400 text-blue-900 px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-300 transition-colors inline-flex items-center justify-center"
@@ -97,7 +97,7 @@ const Contact = () => {
               Download Strategy Guide
               <Download className="ml-2 h-5 w-5" />
             </a>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -293,7 +293,7 @@ const Contact = () => {
               </div>
 
               {/* Lead Magnet */}
-              <div className="bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-xl p-8 text-blue-900">
+              {/* <div className="bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-xl p-8 text-blue-900">
                 <h3 className="text-xl font-bold mb-4">Free Content Strategy Template</h3>
                 <p className="mb-6">
                   Download my proven content strategy framework that's helped 50+ businesses increase their traffic by 300%.
@@ -305,14 +305,14 @@ const Contact = () => {
                   Download Now
                   <Download className="ml-2 h-5 w-5" />
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 bg-gray-50">
+      {/* <section className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
@@ -332,7 +332,7 @@ const Contact = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-blue-800 to-blue-900 text-white">

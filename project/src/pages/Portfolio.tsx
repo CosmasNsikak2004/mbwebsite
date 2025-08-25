@@ -14,8 +14,8 @@ const Portfolio = () => {
         { metric: "Lead Generation", value: "+250%" },
         { metric: "Time on Page", value: "+180%" }
       ],
-      challenge: "Despite offering a valuable rent-financing service, ULE Homes was struggling with visibility. The service wasn’t widely known among its MSME audience, and product adoption was low due to a lack of awareness and brand memorability.",
-      solution: "To address this, I crafted a content strategy focused on the emotional and financial realities of Nigerian renters educating on credit and rent finance, sharing real user stories, highlighting renter successes, and reviving the blog with relatable, context-driven content.",
+      challenge: "Refined value communication across all channels to clearly position ULE Homes in the market. Led event campaigns to educate the target audience on overcoming a major conversion barrier: Poor credit scores. Managed a content marketing team to ensure timely, high-quality content delivery across social media, the website, and email marketing.",
+      solution: "Achieved a 63% lead generation rate during the mortgage plan product launch campaign. Increased rent financing product adoption by 51.35% in 3 months. Implemented an event campaign strategy that consistently attracted qualified leads.",
       link: "#"
     },
     {
@@ -173,7 +173,7 @@ const Portfolio = () => {
       </section>
 
       {/* Case Studies */}
-      <section className="py-20 bg-gray-50">
+      {/* <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
@@ -210,10 +210,10 @@ const Portfolio = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Success Metrics */}
-      <section className="py-20">
+      {/* <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
@@ -241,7 +241,7 @@ const Portfolio = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-blue-800 to-blue-900 text-white">
